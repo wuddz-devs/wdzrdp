@@ -87,6 +87,7 @@ Scan Servers In 's.txt' For Users In 'u.txt' & Passwords In 'p.txt' & Stealthily
 ```
 rdp.exe -s s.txt -u u.txt -p p.txt -clean
 ```
+While Scanning Press Ctrl+C ("...Closing Running Tasks Hang On..." Will Print In Console) To Gracefully Clean Up Threads And Close App.
 
 ## Illustration Video:
 https://mega.nz/file/FTERmaKC#8h5jO_ThFhLZ9JoWgC347an2OfoxJDJZNvnSZojd32Y
