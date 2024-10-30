@@ -7,7 +7,7 @@
  - Check If Credential(s) Are valid (e.g "server:port@domain\\username;password")
  - Scan Using "user;password" | "user;ntlm_hash" combo(s) (e.g "admin;admin123", "dev;ab2d4912fc7132fb7165d79cffbc5db5")
  - Password Generator (e.g all perms, all upper & lower, all no repeat chars)
- - Grab Network Cidr Lists For All Datacenters Or Countries(2 letter cc) (e.g all | amazon, us)
+ - Save Network Cidr Lists For All Or Specified Datacenter Or Country (2 letter international country code)
  - 5x Or More Faster Than Anything I've Seen Out Here
  - No Viruses, Can Be Run Using Guest Or Admin Account On Any Windows OS.
  - Encrypt/Decrypt Hits With A Password (Can Only Be Decrypted With This Program).
@@ -19,6 +19,35 @@
 
 ## Prerequisites
  - Can Be Distributed As An Executable For Windows/Linux Or As A Package To Install With Python On The System.
+
+### Datacenters
+```
+all
+akamai
+alibaba
+amazon
+aws_cloudfront
+aws_ec2
+aws_s3
+bigo
+bing
+cloudflare
+digitalocean
+facebook
+fastly
+github
+google
+google_cloud
+linode
+microsoft
+netflix
+openai
+oracle
+telegram
+twitter
+zenlayer
+zoom
+```
 
 
 ### Usage
